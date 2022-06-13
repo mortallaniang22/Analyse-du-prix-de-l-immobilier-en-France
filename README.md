@@ -1,7 +1,7 @@
 # Mise ene place d'une base de donnée immobiliere avec SQL
 ##  stack technique: 
 Mysql, Powe Query, Power architect
-## Contenue:
+## Contenu:
 1. Dictionnaire de données
 2. Modèle conceptuel des données
 3. Le schéma relationnel
