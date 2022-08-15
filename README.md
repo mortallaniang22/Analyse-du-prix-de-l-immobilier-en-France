@@ -5,7 +5,7 @@
  
  
 ##  Dictionnaire de données : 
-<img alt="Dictionnaire de données" width="80%" src="./dico.png" style="padding-right:10px;" />
+<img alt="MYSQL" width="80%" src="./Dictionnaire de données.png" style="padding-right:10px;" />
 
 
 ### Nettoyage des données
