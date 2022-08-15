@@ -1,6 +1,12 @@
-# Mise ene place d'une base de donnée immobiliere avec SQL
+# Analyse du prix de l'immobilier en France
+
+ Dans ce projet, nous avons construit un modèle de prévision des prix de l'immobilier en France avec SQL
+ Les données utilisées : [Demandes de valeurs foncières](https://www.data.gouv.fr/fr/datasets/5c4ae55a634f4117716d5656/) data from [Data.gouv](https://www.data.gouv.fr/fr/).
+ 
+ 
 ##  stack technique: 
 Mysql, Powe Query, Power architect
+
 ## Contenu:
 1. Dictionnaire de données
 2. Modèle conceptuel des données
