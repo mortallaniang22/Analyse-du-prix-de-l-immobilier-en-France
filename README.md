@@ -27,8 +27,6 @@ Nous avons utilisé **Power Architect** pour concevoir la base de données.
 
 1 script de création de tables en MySQL.
 
-1 script de création de tables en PostgreSQL.
-
 4 fichiers de données nettoyés.
 
 9 requêtes MySQL.
