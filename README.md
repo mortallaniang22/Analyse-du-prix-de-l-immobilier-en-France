@@ -5,6 +5,7 @@
  
  
 ##  Dictionnaire de données : 
+
 <img alt="MYSQL" width="80%" src="./Dictionnaire de données.png" style="padding-right:10px;" />
 
 
@@ -14,20 +15,21 @@ Nous avons utilisé **Excel** et **Power Query** pour la préparation des donné
 ## Conception de la bases de données
 Nous avons utilisé **Power Architect** pour concevoir la base de données.
 
-## Contenu:
-1. Dictionnaire de données
-2. Modèle conceptuel des données
-3. Le schéma relationnel
-4. Un cripte Mysql pour la création des tables
-5. Les requetes
+<img alt="MySQL" width="80%" src="./Power.png" style="padding-right:10px;" />
 
-## Les requetes
-1. Nombre total d’appartements vendus au 1er semestre 2020.
-2. Proportion des ventes d’appartements par le nombre de pièces.
-3. Liste des 10 départements où le prix du mètre carré est le plus élevé.
-4. Prix moyen du mètre carré d’une maison en Île-de-France.
-5. Liste des 10 appartements les plus chers avec le département et le nombre de mètres carrés.
-6. Taux d’évolution du nombre de ventes entre le premier et le second trimestre de 2020.
-7. Liste des communes où le nombre de ventes a augmenté d'au moins 20% entre le premier et le second trimestre de 2020.
-8. Différence en pourcentage du prix au mètre carré entre un appartement de 2 pièces et un appartement de 3 pièces.
-9. Les moyennes de valeurs foncières pour le top 3 des communes des départements 6, 13, 33, 59 et 69.
+## Contenu du projet:
+
+1 Dictionnaire de données.
+
+1 Modèles de conception relationnels.
+
+1 Le schéma relationnel.
+
+1 script de création de tables en MySQL.
+
+1 script de création de tables en PostgreSQL.
+
+4 fichiers de données nettoyés.
+
+9 requêtes MySQL.
+
