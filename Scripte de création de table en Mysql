@@ -1,0 +1,42 @@
+
+CREATE TABLE Commune (
+                Id_com INT AUTO_INCREMENT NOT NULL,
+                Nom_Com VARCHAR(50),
+                Cod_post INT,
+                CodeDepartement VARCHAR(5) NOT NULL,
+                PRIMARY KEY (Id_com)
+);
+
+
+CREATE TABLE BiensImmobilier (
+                Id_Loc INT NOT NULL,
+                TypLoc VARCHAR(25) NOT NULL,
+                Nb_Piece INT NOT NULL,
+                Surfcarrez DECIMAL(10,2),
+                SurfBatie DECIMAL(10,2),
+                NomDeLaRue VARCHAR(50) NOT NULL,
+                Id_com INT NOT NULL,
+                PRIMARY KEY (Id_Loc)
+);
+
+
+CREATE TABLE Transaction (
+                Id_Transac INT AUTO_INCREMENT NOT NULL,
+                Val_Fonc DECIMAL(10,2) NOT NULL,
+                Date_Mutation DATE NOT NULL,
+                Id_Loc INT NOT NULL,
+                PRIMARY KEY (Id_Transac)
+);
+
+
+ALTER TABLE BiensImmobilier ADD CONSTRAINT commune_local_fk
+FOREIGN KEY (Id_com)
+REFERENCES Commune (Id_com)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE Transaction ADD CONSTRAINT local_transaction_fk
+FOREIGN KEY (Id_Loc)
+REFERENCES BiensImmobilier (Id_Loc)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
