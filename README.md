@@ -4,7 +4,7 @@
  Les données utilisées : [Demandes de valeurs foncières](https://www.data.gouv.fr/fr/datasets/5c4ae55a634f4117716d5656/) data from [Data.gouv](https://www.data.gouv.fr/fr/).
  
  
-##  Dictionnaire de données : 
+###  Dictionnaire de données : 
 
 <img alt="MYSQL" width="80%" src="./Dictionnaire de données.png" style="padding-right:10px;" />
 
@@ -12,12 +12,16 @@
 ### Nettoyage des données
 Nous avons utilisé **Excel** et **Power Query** pour la préparation des données.
 
-## Conception de la bases de données
+### Conception de la bases de données
 Nous avons utilisé **Power Architect** pour concevoir la base de données.
 
 <img alt="MySQL" width="80%" src="./Power.png" style="padding-right:10px;" />
 
-## Contenu du projet:
+### Le modèle 
+
+Nous avons utilisé **MySQL** pour implémenter le modèle.
+
+### Contenu du projet:
 
 1 Dictionnaire de données.
 
