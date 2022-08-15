@@ -4,8 +4,15 @@
  Les données utilisées : [Demandes de valeurs foncières](https://www.data.gouv.fr/fr/datasets/5c4ae55a634f4117716d5656/) data from [Data.gouv](https://www.data.gouv.fr/fr/).
  
  
-##  stack technique: 
-Mysql, Powe Query, Power architect
+##  Dictionnaire de données : 
+<img alt="Dictionnaire de données" width="80%" src="./dico.png" style="padding-right:10px;" />
+
+
+### Nettoyage des données
+Nous avons utilisé **Excel** et **Power Query** pour la préparation des données.
+
+## Conception de la bases de données
+Nous avons utilisé **Power Architect** pour concevoir la base de données.
 
 ## Contenu:
 1. Dictionnaire de données
