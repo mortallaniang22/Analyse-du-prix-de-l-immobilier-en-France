@@ -12,14 +12,6 @@
 <img alt="MYSQL" width="80%" src="./Dictionnaire de données.png" style="padding-right:10px;" />
 
 
-### Préparation des données
-
-Nous avons utilisé **Excel** et **Power Query** pour la préparation des données.
-Dans cette partie, nous sommes passé par différents process:
-- selectionner les variables en accord au dictionnaire de donnée,
-- traiter les données manquantes, les doublons, 
-- Faire les jointures necessaires.
-
 ### Modelisation de la bases de données
 
 Nous avons utilisé **Power Architect** pour modeliser la base de données avec le language UML.
@@ -28,22 +20,38 @@ Pour plus d'infomation sur UML, veuillez cliquer le lien suivant : [Wikipedia](h
 
 <img alt="MySQL" width="80%" src="./Power.png" style="padding-right:10px;" />
 
+
+### Préparation des données
+
+Nous avons utilisé **Excel** et **Power Query** pour la préparation des données.
+Dans cette partie, nous sommes passé par différents process, à savoir :
+
+1. choix des variables en accord au dictionnaire de donnée,
+
+2. traitement des données manquantes ainsi que des doublons, 
+
+3. vérication puis validation du typage des colonnes,
+
+4. création puis fusion des tables en accord au schéma relationnel,
+
+5. exportation des tables en fichier CSV
+
+
 ###  Implémentation du modèle
 
 Nous avons utilisé **MySQL** pour implémenter le modèle.
-Dans un premier temps, nous avons créer les tables avec le code généré par PowerArchitect 
 
-### Contenu du projet:
+1. création des tables avec le code généré par PowerArchitect,
 
-1 Dictionnaire de données.
+2. transfert des fichiers csv préparés en amont dans le SGBD,
 
-1 Modèles de conception relationnels.
+3. lancement de 9 requètes 
 
-1 Le schéma relationnel.
 
-1 script de création de tables en MySQL.
+### Outils  et concepts utilisés
 
-4 fichiers de données nettoyés.
+- **Excel** et **PowerQuery** pour la préparation des données
+- **Power Architect** et **Lucidchart** pour le database design : le schéma relatinnel
+- **MySQL** pour l'implémentation et la gestion du modèle.
 
-9 requêtes MySQL.
 
