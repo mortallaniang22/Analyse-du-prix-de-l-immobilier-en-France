@@ -15,9 +15,10 @@
 ### Préparation des données
 
 Nous avons utilisé **Excel** et **Power Query** pour la préparation des données.
-Dans cette partie, nous sommes passé par différents process
-par selectionner les variables en accord au dictionnaire de donnée.
-Nous avons en suite pris en charge les données manquantes, les doublons, 
+Dans cette partie, nous sommes passé par différents process:
+- selectionner les variables en accord au dictionnaire de donnée,
+- traiter les données manquantes, les doublons, 
+- Faire les jointures necessaires.
 
 ### Modelisation de la bases de données
 
