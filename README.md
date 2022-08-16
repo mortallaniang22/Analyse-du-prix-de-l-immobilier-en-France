@@ -1,6 +1,6 @@
-# Analyse du prix de l'immobilier en France
+# Modèle de recommandation du prix de vente de l'immobilier avec SQL.
 
- Dans ce projet, nous avons construit un modèle de prévision des prix de l'immobilier en France avec SQL
+ Dans ce projet, nous avons construit un modèle de recommandation des prix de l'immobilier en France avec SQL
  Les données utilisées : [Demandes de valeurs foncières](https://www.data.gouv.fr/fr/datasets/5c4ae55a634f4117716d5656/) data from [Data.gouv](https://www.data.gouv.fr/fr/).
  
  
